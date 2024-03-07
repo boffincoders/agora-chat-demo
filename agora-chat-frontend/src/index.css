@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Rubik:wght@300&display=swap');
+* {
+  margin: 0 ;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;;
+  background: #F6F7FC;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-y: auto;
+}
+
+.homecard .ant-card .ant-card-body {
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+div {
+  font-family: 'Poppins', sans-serif;;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;;
+}
+p {
+  font-family: 'Poppins', sans-serif;;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;;
+}
+h5 {
+  font-family: 'Poppins', sans-serif;;
+}
+span {
+  font-family: 'Poppins', sans-serif;;
+}
+
+.maincolor {
+  background: linear-gradient(180deg, #6d5fdf 0%, #3728b0 100%);
+}
